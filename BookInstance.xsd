@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:include schemaLocation="Book.xsd"/>
+	
+	<xs:element name="BookInstance" type="bookInstanceType"/>
+	
+		<xs:complexType name="bookInstanceType">
+			<xs:sequence>
+				<xs:element name="book" type="bookType"/>
+				<xs:element name="number" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+
+</xs:schema>
+		

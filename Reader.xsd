@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Reader" type="readerType"/>
+		<xs:complexType name="readerType">
+			<xs:sequence>
+				<xs:element name="firstName" type="xs:string"/>
+				<xs:element name="secondName" type="xs:string"/>
+				<xs:element name="lastName" type="xs:integer"/>
+				<xs:element name="pasportNumber" type="xs:integer"/>
+			</xs:sequence>
+		</xs:complexType>
+	
+</xs:schema>
